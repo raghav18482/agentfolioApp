@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          # Wrap every decode error in CheckedFromJsonException, which names
+          # the class and key that did not match.
+          checked: true
+          field_rename: snake
+          create_to_json: false
+          explicit_to_json: true
+      freezed:
+        options:
+          to_json: false
+          from_json: false

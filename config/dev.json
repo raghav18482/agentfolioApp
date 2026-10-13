@@ -1,0 +1,8 @@
+{
+  "FLAVOR": "dev",
+  "API_BASE_URL": "http://localhost:8000",
+  "WEB_BASE_URL": "https://agentfolio.in",
+  "CRASHLYTICS_ENABLED": false,
+  "TERMS_URL": "",
+  "PRIVACY_URL": ""
+}

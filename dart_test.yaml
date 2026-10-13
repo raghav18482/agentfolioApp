@@ -1,0 +1,4 @@
+tags:
+  # Pixel tests: rendering differs slightly between operating systems, so CI
+  # on another OS can skip them with `--exclude-tags golden`.
+  golden:

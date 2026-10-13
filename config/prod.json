@@ -1,0 +1,8 @@
+{
+  "FLAVOR": "prod",
+  "API_BASE_URL": "https://agentfolio.in",
+  "WEB_BASE_URL": "https://agentfolio.in",
+  "CRASHLYTICS_ENABLED": true,
+  "TERMS_URL": "",
+  "PRIVACY_URL": ""
+}

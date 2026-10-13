@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "151342190258",
+    "project_id": "agentfolio-app",
+    "storage_bucket": "agentfolio-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151342190258:android:f692758bdd8ec2460683ab",
+        "android_client_info": {
+          "package_name": "in.agentfolio.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ZPKgsNnEWCQTAgCYJFxt3Gxtgsbn1zY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151342190258:android:c61f9a4335c71f380683ab",
+        "android_client_info": {
+          "package_name": "in.agentfolio.app.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ZPKgsNnEWCQTAgCYJFxt3Gxtgsbn1zY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

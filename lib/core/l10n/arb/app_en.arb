@@ -1,0 +1,1464 @@
+{
+  "@@locale": "en",
+  "appName": "Agentfolio",
+  "appTagline": "Your portfolio, with an AI analyst on call",
+  "commonRetry": "Retry",
+  "commonCancel": "Cancel",
+  "commonContinue": "Continue",
+  "commonSomethingWrong": "Something went wrong",
+  "splashConnecting": "Connecting securely…",
+  "splashSlow": "This is taking longer than usual. Check your connection.",
+  "splashOfflineTitle": "Can't reach Agentfolio",
+  "splashOfflineBody": "Check your internet connection and try again.",
+  "tabHome": "Home",
+  "tabPortfolio": "Portfolio",
+  "tabMarkets": "Markets",
+  "tabTrade": "Trade",
+  "tabAgent": "Agent",
+  "accountTitle": "Account",
+  "comingSoonTitle": "{screen} is on its way",
+  "@comingSoonTitle": {
+    "placeholders": {
+      "screen": {
+        "type": "String"
+      }
+    }
+  },
+  "comingSoonBody": "This screen arrives in an upcoming phase of the app.",
+  "commonPaste": "Paste",
+  "commonShow": "Show password",
+  "commonHide": "Hide password",
+  "commonBack": "Back",
+  "commonDiscard": "Discard",
+  "commonKeepEditing": "Keep editing",
+  "onboardingSkip": "Skip",
+  "onboardingNext": "Next",
+  "onboardingSlide1Title": "Your whole portfolio, at a glance",
+  "onboardingSlide1Body": "Holdings, P&L, sectors and cash from your broker, live — with charts that make the numbers obvious.",
+  "onboardingSlide2Title": "An AI analyst that knows your holdings",
+  "onboardingSlide2Body": "Ask questions in plain language, get research on any stock you own, and review trade ideas before anything is placed. You approve every order.",
+  "onboardingLogin": "Log in",
+  "onboardingSetUp": "Set up your account",
+  "loginTitle": "Log in",
+  "loginSubtitle": "Your {broker} credentials are already stored, encrypted. Just your number and app password.",
+  "@loginSubtitle": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "loginSubmit": "Log in",
+  "loginNewHere": "First time here, or registered before app passwords existed?",
+  "loginSetUpLink": "Set up your account",
+  "loginNoBrokerAccount": "No {broker} account yet?",
+  "@loginNoBrokerAccount": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "loginOpenDemat": "Open a free Demat account",
+  "loginRetryIn": "Try again in {time}",
+  "@loginRetryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "loginRelink": "Re-link your account",
+  "loginSessionLoadFailed": "You're signed in, but we couldn't load your account. Please try again.",
+  "fieldWhatsapp": "WhatsApp number",
+  "fieldWhatsappHint": "98765 43210",
+  "fieldWhatsappHelp": "Pick your country code, then the number without it. This is also where premium briefings are sent.",
+  "fieldAppPassword": "App password",
+  "fieldAppPasswordLoginHint": "The password you chose during setup",
+  "fieldAppPasswordNewHint": "At least {count} characters",
+  "@fieldAppPasswordNewHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "fieldAppPasswordNewHelp": "Choose something new — not your trading PIN.",
+  "fieldAppPasswordConfirm": "Confirm app password",
+  "countryPickerTitle": "Country code",
+  "countryPickerSearch": "Search countries",
+  "countryPickerNoMatch": "No country matches “{query}”",
+  "@countryPickerNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "countryPickerButton": "Country code {code}, change",
+  "@countryPickerButton": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linkTitle": "Set up your account",
+  "linkStepOf": "Step {step} of {total}",
+  "@linkStepOf": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "linkBrokerStepTitle": "{broker} credentials",
+  "@linkBrokerStepTitle": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "linkBrokerStepSubtitle": "Enter them once. We verify them with {broker}, encrypt them, and from then on you log in with just your WhatsApp number and an app password.",
+  "@linkBrokerStepSubtitle": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "linkWhereToFind": "Not sure where to find these?",
+  "linkSetupGuide": "Open the setup guide",
+  "linkSignInStepTitle": "How you'll log in from now on",
+  "linkSignInStepSubtitle": "Your WhatsApp number and a new app password. Your broker credentials stay encrypted behind it.",
+  "linkContinue": "Continue",
+  "linkSubmit": "Verify and finish",
+  "linkVerifying": "Verifying with {broker}…",
+  "@linkVerifying": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "linkConsent": "I agree to the {terms} and {privacy}.",
+  "@linkConsent": {
+    "placeholders": {
+      "terms": {
+        "type": "String"
+      },
+      "privacy": {
+        "type": "String"
+      }
+    }
+  },
+  "linkConsentTerms": "Terms",
+  "linkConsentPrivacy": "Privacy Policy",
+  "linkConsentRequired": "Please accept the Terms and Privacy Policy to continue.",
+  "linkAlreadySetUp": "Already set up?",
+  "linkLogInInstead": "Log in",
+  "linkDiscardTitle": "Discard what you've entered?",
+  "linkDiscardBody": "Your credentials haven't been saved. Leaving now clears them from this screen.",
+  "accountLinkedBroker": "Linked account",
+  "accountGuides": "Guides",
+  "accountSetupGuide": "Setup guide",
+  "accountSetupGuideHint": "Where to find your broker credentials",
+  "accountConnectMcp": "Connect an AI assistant",
+  "accountConnectMcpHint": "Use Agentfolio from Claude, ChatGPT or Cursor",
+  "accountLogout": "Log out",
+  "accountLogoutTitle": "Log out of Agentfolio?",
+  "accountLogoutBody": "You'll need your WhatsApp number and app password to log back in. Nothing is stored on this phone after you log out.",
+  "accountVersion": "Version {version}",
+  "@accountVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyHideBalances": "Hide balances",
+  "privacyShowBalances": "Show balances",
+  "homeCurrentValue": "Current value",
+  "homeInvested": "Invested",
+  "homeCash": "Cash",
+  "homeOverallPnl": "Overall P&L",
+  "homeDayPnl": "Today",
+  "homeUpdated": "Updated {time}",
+  "@homeUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeStaleTitle": "Couldn't refresh · showing data from {time}",
+  "@homeStaleTitle": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAvailableCash": "Available cash",
+  "homeNetValue": "Net value",
+  "homeNoHoldingsTitle": "No holdings yet",
+  "homeNoHoldingsBody": "Stocks you hold with your broker appear here, with their charts and P&L.",
+  "homeHeatmapTitle": "P&L heatmap",
+  "homeHeatmapSubtitle": "Size is value · colour is gain or loss",
+  "homeHeatmapSemantics": "Heatmap of {count} holdings sized by value and coloured by profit or loss",
+  "@homeHeatmapSemantics": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeHeatmapOthers": "+{count} more",
+  "@homeHeatmapOthers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeMoversTitle": "Top movers",
+  "homeMoversSubtitle": "Biggest gains and losses in rupees",
+  "homeMoversGainers": "Gainers",
+  "homeMoversLosers": "Losers",
+  "homeMoversFlat": "Nothing has moved yet.",
+  "homeSectorTitle": "Sector allocation",
+  "homeCashTitle": "Cash vs invested",
+  "homeTotalValue": "Total value",
+  "homeTotalCapital": "Total capital",
+  "homeCashSemantics": "Ring chart: {invested} invested, {cash} in cash",
+  "@homeCashSemantics": {
+    "placeholders": {
+      "invested": {
+        "type": "String"
+      },
+      "cash": {
+        "type": "String"
+      }
+    }
+  },
+  "holdingQuantity": "Quantity",
+  "holdingAverage": "Average price",
+  "holdingLastPrice": "Last price",
+  "benchmarkTitle": "Portfolio vs NIFTY 50",
+  "benchmarkSubtitle": "Cumulative returns · last {days} days",
+  "@benchmarkSubtitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "benchmarkNotEnoughData": "Not enough history yet to compare with the market.",
+  "benchmarkPortfolio": "My portfolio",
+  "benchmarkNifty": "NIFTY 50",
+  "benchmarkSemantics": "Line chart: portfolio {portfolio}, NIFTY 50 {nifty} over the period",
+  "@benchmarkSemantics": {
+    "placeholders": {
+      "portfolio": {
+        "type": "String"
+      },
+      "nifty": {
+        "type": "String"
+      }
+    }
+  },
+  "benchmarkBeta": "Beta",
+  "benchmarkAlpha": "Alpha (daily)",
+  "benchmarkRSquared": "R-squared",
+  "benchmarkDays": "Days",
+  "benchmarkBandAggressive": "High volatility",
+  "benchmarkBandMarket": "Moves with market",
+  "benchmarkBandDefensive": "Defensive",
+  "infoIdeal": "Ideal values",
+  "infoTip": "Pro tip",
+  "benchmarkBetaInfoTitle": "Portfolio Beta (β)",
+  "benchmarkBetaInfoBody": "Measures how sensitive your portfolio is to market (NIFTY 50) movements. A beta of 1.0 means your portfolio moves exactly with the market.",
+  "benchmarkBetaInfoIdeal": "β < 0.8 = Defensive (less volatile)\nβ ≈ 1.0 = Moves with market\nβ > 1.2 = Aggressive (more volatile)",
+  "benchmarkBetaInfoTip": "For long-term wealth building, β between 0.8–1.2 is considered balanced. Lower beta during uncertain markets helps protect capital.",
+  "benchmarkAlphaInfoTitle": "Alpha (α)",
+  "benchmarkAlphaInfoBody": "The excess daily return your portfolio generates beyond what the market movement explains. Positive alpha = you're beating the market after adjusting for risk.",
+  "benchmarkAlphaInfoIdeal": "α > 0 = Outperforming the market\nα = 0 = Matching the market\nα < 0 = Underperforming",
+  "benchmarkAlphaInfoTip": "Even a small positive daily alpha compounds significantly over time. Consistent α > 0.01% daily is excellent.",
+  "benchmarkR2InfoTitle": "R-Squared (R²)",
+  "benchmarkR2InfoBody": "Shows what percentage of your portfolio's movement is explained by the market. R² of 1.0 means your portfolio perfectly tracks NIFTY 50.",
+  "benchmarkR2InfoIdeal": "R² > 0.7 = Closely tracks the market\nR² 0.4–0.7 = Moderate correlation\nR² < 0.4 = Largely independent of market",
+  "benchmarkR2InfoTip": "High R² with low beta = diversified market tracker. Low R² = your returns come from stock-specific factors, not the broad market.",
+  "portfolioHoldings": "Holdings",
+  "portfolioPositions": "Positions",
+  "portfolioOrders": "Orders",
+  "holdingsCount": "Stocks",
+  "holdingsReturns": "Returns",
+  "holdingsSearch": "Search holdings",
+  "holdingsClearSearch": "Clear search",
+  "holdingsNoMatch": "No holding matches “{query}”",
+  "@holdingsNoMatch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "holdingsSortBy": "Sort by",
+  "holdingsSortValue": "Value",
+  "holdingsSortPnl": "P&L",
+  "holdingsSortPnlPercent": "P&L %",
+  "holdingsSortInvested": "Invested",
+  "holdingsSortName": "Name",
+  "positionsDayPnl": "Day P&L",
+  "positionsOpen": "{count, plural, =1{1 open position} other{{count} open positions}}",
+  "@positionsOpen": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "positionsEmptyTitle": "No open positions today",
+  "positionsEmptyBody": "Intraday and delivery positions you open today show up here.",
+  "positionDetail": "Net {qty} · Buy {buy} · Sell {sell}",
+  "@positionDetail": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "buy": {
+        "type": "String"
+      },
+      "sell": {
+        "type": "String"
+      }
+    }
+  },
+  "positionLtp": "LTP {price}",
+  "@positionLtp": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "ordersOrders": "Orders",
+  "ordersTrades": "Trades",
+  "ordersEmpty": "No orders today",
+  "tradesEmpty": "No executed trades today",
+  "holdingsValue": "Value",
+  "stockTabOverview": "Overview",
+  "stockTabFundamentals": "Fundamentals",
+  "stockTabTechnicals": "Technicals",
+  "stockTabAi": "AI",
+  "stockHeld": "HELD",
+  "stockOneDay": "1D",
+  "stockChartTitle": "Price",
+  "stockChartLine": "Show as line",
+  "stockChartCandles": "Show as candles",
+  "stockRange1M": "1M",
+  "stockRange3M": "3M",
+  "stockRange6M": "6M",
+  "stockRange1Y": "1Y",
+  "stockRangeSuffix": "in {range}",
+  "@stockRangeSuffix": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "stockAvgLabel": "Avg {price}",
+  "@stockAvgLabel": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "stockOhlc": "O {open}  H {high}  L {low}  C {close}",
+  "@stockOhlc": {
+    "placeholders": {
+      "open": {
+        "type": "String"
+      },
+      "high": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      },
+      "close": {
+        "type": "String"
+      }
+    }
+  },
+  "stockVolume": "Volume {volume}",
+  "@stockVolume": {
+    "placeholders": {
+      "volume": {
+        "type": "String"
+      }
+    }
+  },
+  "stockChartSemantics": "{symbol} price chart over {range}, {change}",
+  "@stockChartSemantics": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      },
+      "change": {
+        "type": "String"
+      }
+    }
+  },
+  "chartNotEnough": "Not enough price history to draw a chart yet.",
+  "stockPositionTitle": "Your position",
+  "stockOverallReturn": "Overall return",
+  "stockWeight": "Share of your portfolio",
+  "stockKeyStatsTitle": "Key stats",
+  "stock52wRange": "52-week range",
+  "stock52wLow": "52-week low",
+  "stock52wHigh": "52-week high",
+  "stock52wPosition": "{percent} of the way up",
+  "@stock52wPosition": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "stock52wSemantics": "52-week range from {low} to {high}; the price is {percent} of the way up",
+  "@stock52wSemantics": {
+    "placeholders": {
+      "low": {
+        "type": "String"
+      },
+      "high": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "stockDma50": "50 DMA",
+  "stockDma200": "200 DMA",
+  "stockAbove": "Above",
+  "stockBelow": "Below",
+  "stockRsi": "RSI (14)",
+  "rsiOverbought": "Overbought",
+  "rsiOversold": "Oversold",
+  "rsiNeutral": "Neutral",
+  "stockVolumeRatio": "Volume vs 20-day avg",
+  "predictionTitle": "Direction outlook",
+  "predictionSubtitle": "Where the technical signals lean over three horizons",
+  "predictionEngineRules": "Rule-based score (no model)",
+  "predictionEngineModel": "Model {version}",
+  "@predictionEngineModel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "horizonDay": "1 day",
+  "horizonWeek": "1 week",
+  "horizonMonth": "1 month",
+  "directionUp": "Up",
+  "directionDown": "Down",
+  "directionNeutral": "Flat",
+  "outlookBullish": "Bullish",
+  "outlookBearish": "Bearish",
+  "outlookNeutral": "Neutral",
+  "predictionPushingUp": "Pushing up",
+  "predictionPushingDown": "Pushing down",
+  "predictionNoSignals": "No strong signals",
+  "predictionHorizonSemantics": "{horizon}: {direction}, {confidence}% confidence",
+  "@predictionHorizonSemantics": {
+    "placeholders": {
+      "horizon": {
+        "type": "String"
+      },
+      "direction": {
+        "type": "String"
+      },
+      "confidence": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreTitle": "Fundamental score",
+  "scoreSubtitle": "Graded against fixed thresholds, with no AI involved: the same numbers always give the same score.",
+  "scoreHowCalculated": "How is this calculated?",
+  "scoreOutOf": "/ 100",
+  "scoreSemantics": "Fundamental score {score} out of 100",
+  "@scoreSemantics": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreProvisional": "Provisional · {grade}",
+  "@scoreProvisional": {
+    "placeholders": {
+      "grade": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreGradeLabel": "{grade} · {label}",
+  "@scoreGradeLabel": {
+    "placeholders": {
+      "grade": {
+        "type": "String"
+      },
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreConfidenceMedium": "Some metrics were unavailable, so treat this as approximate. Based on {used} of {total} metrics.",
+  "@scoreConfidenceMedium": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreConfidenceLow": "Provisional: too few metrics had data to score this reliably. Based on {used} of {total} metrics.",
+  "@scoreConfidenceLow": {
+    "placeholders": {
+      "used": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "scoreAdjusted": "Adjusted for this sector: {parts} left out, as not meaningful for this kind of company. Scored out of 100 on the rest.",
+  "@scoreAdjusted": {
+    "placeholders": {
+      "parts": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreSkippedPillar": "{pillar} (not measurable from this data)",
+  "@scoreSkippedPillar": {
+    "placeholders": {
+      "pillar": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreNoData": "Not enough fundamental data to score this stock.",
+  "scorePillarNoData": "No data",
+  "scorePillarPoints": "{score} / {max}",
+  "@scorePillarPoints": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "scoreStrengths": "Strengths",
+  "scoreConcerns": "Watch out for",
+  "valuationTitle": "Valuation",
+  "healthTitle": "Financial health",
+  "metricsHint": "Tap a metric to see what it means and its ideal range.",
+  "metricPe": "P/E ratio",
+  "metricForward": "Forward {value}",
+  "@metricForward": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "metricPb": "P/B ratio",
+  "metricEvEbitda": "EV/EBITDA",
+  "metricPeg": "PEG ratio",
+  "metricDividendYield": "Dividend yield",
+  "metricEps": "Trailing EPS",
+  "metricRoe": "ROE",
+  "metricRoce": "ROCE",
+  "metricDebtToEquity": "Debt to equity",
+  "metricFreeCashFlow": "Free cash flow",
+  "metricProfitMargin": "Profit margin",
+  "metricOperatingMargin": "Operating margin",
+  "metricRevenueGrowth": "Revenue growth",
+  "metricEarningsGrowth": "Earnings growth",
+  "metricPromoterHolding": "Promoter holding",
+  "metricSheetIdeal": "Ideal",
+  "metricSheetContext": "Context",
+  "metricSheetWatchOut": "Watch out",
+  "metricSheetThisStock": "This stock: {value} — {note}",
+  "@metricSheetThisStock": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "note": {
+        "type": "String"
+      }
+    }
+  },
+  "metricSheetReadMore": "Read more in the guide",
+  "metricSheetNoExplanation": "No explanation available for this metric.",
+  "trendTitle": "Revenue & profit",
+  "trendSubtitle": "Annual figures from Yahoo Finance",
+  "trendRevenue": "Revenue",
+  "trendProfit": "Net profit",
+  "trendEmpty": "No annual figures available for this stock.",
+  "trendSemantics": "Bar chart of annual revenue and net profit from {from} to {to}",
+  "@trendSemantics": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "verdictGood": "Good",
+  "verdictBad": "Bad",
+  "verdictNeutral": "Neutral",
+  "verdictExcluded": "Excluded",
+  "verdictUnknown": "No data",
+  "signalsTitle": "Signal summary",
+  "signalsTally": "{bullish} bullish · {bearish} bearish · {neutral} neutral",
+  "@signalsTally": {
+    "placeholders": {
+      "bullish": {
+        "type": "int"
+      },
+      "bearish": {
+        "type": "int"
+      },
+      "neutral": {
+        "type": "int"
+      }
+    }
+  },
+  "signalsEmpty": "No signals available.",
+  "dmaChartTitle": "Price & moving averages",
+  "legendPrice": "Price",
+  "dmaChartSemantics": "Price over the past year with its 50 and 200 day moving averages",
+  "rsiTitle": "RSI (14)",
+  "rsiSubtitle": "Above 70 is overbought, below 30 oversold",
+  "rsiSemantics": "Relative strength index over the past year, now {value}",
+  "@rsiSemantics": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "macdTitle": "MACD",
+  "macdSubtitle": "Momentum: MACD and signal lines, with their gap as bars",
+  "legendMacd": "MACD",
+  "legendSignal": "Signal",
+  "macdSemantics": "MACD line, signal line and histogram over the past year",
+  "levelsTitle": "Support & resistance",
+  "levelsSubtitle": "Pivot points from the last session",
+  "levelPivot": "Pivot",
+  "levelsNow": "Now",
+  "levelsEmpty": "Not enough data for pivot points.",
+  "indicatorsTitle": "Key indicators",
+  "aiSummaryTitle": "In plain English",
+  "aiSummarySubtitle": "An AI reading of this stock's fundamentals",
+  "aiWriting": "Reading {symbol}'s numbers and writing a summary…",
+  "@aiWriting": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "aiRegenerate": "Regenerate",
+  "aiRegenerateIn": "Regenerate in {seconds}s",
+  "@aiRegenerateIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRegenerateFailed": "Couldn't write a new one: {message}",
+  "@aiRegenerateFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "aiJustWritten": "Written just now",
+  "aiRecentlyWritten": "Written in the last few hours",
+  "unavailableTitle": "Not available for this stock",
+  "holdingOpenDetails": "Open full details",
+  "learnTitle": "Learn",
+  "learnHeadline": "What the numbers actually mean",
+  "learnSubtitle": "Every metric explained without jargon: what it measures, what counts as a good number, and what it quietly hides. Written by people, not AI. The thresholds here are the exact ones used to score your stocks.",
+  "learnIntroTitle": "Before you read a single ratio",
+  "learnJumpTo": "Jump to a metric",
+  "learnScored": "Counts toward the score",
+  "learnContextOnly": "Context only",
+  "learnHowGraded": "How this metric is graded",
+  "learnBandAny": "Any value",
+  "learnBandUpTo": "Up to {max}",
+  "@learnBandUpTo": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "learnBandBetween": "{from} to {to}",
+  "@learnBandBetween": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "learnBandAbove": "Above {from}",
+  "@learnBandAbove": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "learnScoringTitle": "How the score is calculated",
+  "learnGradeBands": "Grade bands",
+  "learnGradeMin": "{min}+",
+  "@learnGradeMin": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "learnLimits": "What the score cannot see",
+  "accountLearn": "Learn the metrics",
+  "accountLearnHint": "What P/E, ROE and the score mean",
+  "fundamentalsUnavailableHint": "Fundamentals come from Yahoo Finance, which has no figures for this stock right now. ETFs, index funds and recent listings never have them; for other stocks, try again later.",
+  "marketsNews": "News",
+  "marketsSectors": "Sectors",
+  "newsSearchHint": "Search news: a company, sector or topic",
+  "newsSearchClear": "Clear search",
+  "newsPeriodDay": "Today",
+  "newsPeriodWeek": "7 days",
+  "newsPeriodMonth": "1 month",
+  "newsPeriodQuarter": "3 months",
+  "newsArticleCount": "{count, plural, =1{1 article} other{{count} articles}}",
+  "@newsArticleCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "newsNoHoldingsTitle": "No sectors to follow yet",
+  "newsNoHoldingsBody": "News for your sectors appears here once you hold stocks. You can still search above.",
+  "newsNoResults": "No news for “{query}”",
+  "@newsNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "newsNoResultsBody": "Try a shorter search or a longer period. If nothing ever comes back, the news service may be unavailable.",
+  "newsResultsFor": "Results for “{query}”",
+  "@newsResultsFor": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "sentimentTitle": "Sentiment pulse",
+  "sentimentPrompt": "Read the mood of {count} headlines across your sectors with FinBERT, a language model trained on financial news.",
+  "@sentimentPrompt": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sentimentRun": "Read the mood",
+  "sentimentReading": "Reading {count} headlines…",
+  "@sentimentReading": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sentimentAnalysed": "{count, plural, =1{from 1 headline} other{from {count} headlines}}",
+  "@sentimentAnalysed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sentimentFineprint": "An automated reading of headlines, not of the companies, and not advice.",
+  "sentimentUnavailable": "Sentiment reading isn't available on the server right now.",
+  "moodBullish": "Bullish",
+  "moodBearish": "Bearish",
+  "moodNeutral": "Neutral",
+  "tonePositive": "Positive",
+  "toneNegative": "Negative",
+  "toneNeutral": "Neutral",
+  "moodBarSemantics": "Bullish {bullish}, neutral {neutral}, bearish {bearish}",
+  "@moodBarSemantics": {
+    "placeholders": {
+      "bullish": {
+        "type": "String"
+      },
+      "neutral": {
+        "type": "String"
+      },
+      "bearish": {
+        "type": "String"
+      }
+    }
+  },
+  "breadthVix": "India VIX",
+  "breadthIndices": "Indices",
+  "breadthUpDown": "up / down today",
+  "breadth52w": "52-week",
+  "breadthHighsLows": "highs / lows",
+  "moversTitle": "Index movers",
+  "moversSubtitle": "Today's biggest rises and falls among NSE indices",
+  "moversAll": "All {count} indices",
+  "@moversAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "moversAllTitle": "All NSE indices today",
+  "sectorsYours": "Your sectors",
+  "sectorsEmptyTitle": "No sectors yet",
+  "sectorsEmptyBody": "Your holdings, grouped by sector against their NSE index, appear here.",
+  "sectorHoldings": "{count, plural, =1{1 holding} other{{count} holdings}}",
+  "@sectorHoldings": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sectorIndex": "Index: {name}",
+  "@sectorIndex": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sectorDriver": "Key driver: {driver}",
+  "@sectorDriver": {
+    "placeholders": {
+      "driver": {
+        "type": "String"
+      }
+    }
+  },
+  "sectorYourHoldings": "Your holdings",
+  "newsGathering": "Gathering headlines for your sectors. This can take up to a minute.",
+  "commonTooSlow": "That took too long",
+  "newsNoneBackTitle": "No headlines came back",
+  "newsNoneBackBody": "The news service may be unavailable right now. Try again in a few minutes, or pull to refresh.",
+  "commonClose": "Close",
+  "commonSave": "Save",
+  "accountAi": "AI",
+  "accountAiKey": "OpenRouter key & model",
+  "accountAiKeySaved": "Key saved · {model}",
+  "@accountAiKeySaved": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "accountAiKeyMissing": "Not set up. Needed for Home insights and Ask",
+  "aiSettingsTitle": "AI settings",
+  "aiSettingsIntro": "Home insights and Ask use your own OpenRouter key, so you choose the model and pay only for what you use. The agent and stock summaries don't need a key.",
+  "aiKeyTitle": "OpenRouter API key",
+  "aiKeyStatusSaved": "Saved",
+  "aiKeyStatusMissing": "Not set",
+  "aiKeyLabel": "Your OpenRouter key",
+  "aiKeyReplaceLabel": "Paste a new key to replace the saved one",
+  "aiKeyUnusualPrefix": "OpenRouter keys usually start with sk-or-. Check you copied the right one.",
+  "aiKeyEmpty": "Paste your key first.",
+  "aiKeyWhitespace": "A key has no spaces or line breaks. Check what was pasted.",
+  "aiKeyTooShort": "That looks too short to be a key.",
+  "aiKeySave": "Save key",
+  "aiKeyReplace": "Replace key",
+  "aiKeySaved": "Key saved on this phone",
+  "aiKeySaveFailed": "Couldn't save the key on this phone. Try again.",
+  "aiKeyRemove": "Remove",
+  "aiKeyRemoveTitle": "Remove your key?",
+  "aiKeyRemoveBody": "Insights and Ask will stop working until you add a key again. Answers already written stay until you log out.",
+  "aiKeyGet": "Get a key at openrouter.ai",
+  "aiKeyHowKept": "Your key is kept in this phone's secure storage and removed when you log out. Agentfolio's server passes it to OpenRouter with each request and doesn't keep it. Usage is billed to your OpenRouter account.",
+  "aiModelTitle": "Model",
+  "aiModelSubtitle": "Used for insights and answers from now on",
+  "aiModelOther": "Another model",
+  "aiModelCustomLabel": "OpenRouter model id",
+  "aiModelInvalid": "Use the id OpenRouter shows, like provider/model-name.",
+  "aiModelInUse": "In use",
+  "aiModelUse": "Use this model",
+  "aiCheckKey": "Check key",
+  "aiSetUp": "Set up AI",
+  "aiInsightsTitle": "AI insights",
+  "aiInsightsSubtitle": "Your portfolio, read in plain English",
+  "aiInsightsNeedKey": "Add your OpenRouter key to get a short read of your portfolio's health, best and worst performers, and concentration risk.",
+  "aiInsightsInvite": "A short read of your portfolio's health, best and worst performers, concentration risk, and a few things to consider.",
+  "aiInsightsGenerate": "Write insights",
+  "aiInsightsWriting": "Reading your portfolio…",
+  "aiUsesYourCredit": "Uses your OpenRouter credit · {model}",
+  "@aiUsesYourCredit": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "aiWrittenBy": "{model} · {when}",
+  "@aiWrittenBy": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      },
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "askTitle": "Ask about your portfolio",
+  "askSubtitle": "Answers use your holdings and P&L",
+  "askNeedKey": "Add your OpenRouter key to ask questions about your portfolio.",
+  "askOwn": "Ask your own question",
+  "askIntro": "Pick a question or type your own. Answers are based only on your current holdings, P&L and funds.",
+  "askPlaceholder": "Ask anything about your portfolio…",
+  "askThinking": "Looking at your portfolio…",
+  "askStarterDiversified": "How diversified is my portfolio?",
+  "askStarterUnderperforming": "Which stocks are underperforming?",
+  "askStarterRisk": "What is my risk exposure?",
+  "askStarterRebalance": "Suggest rebalancing strategies",
+  "askStarterHealth": "Summarize my portfolio health",
+  "agentTitle": "Agent",
+  "agentFinance": "Finance",
+  "agentTrading": "Trading",
+  "agentAskAbout": "Tell me about {symbol}: how it's doing in my portfolio, and what its fundamentals and technicals say.",
+  "@agentAskAbout": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "stockAskAgent": "Ask the agent about {symbol}",
+  "@stockAskAgent": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "agentEmptyTitle": "What would you like to know?",
+  "agentEmptyBody": "Your finance agent can look at your holdings, prices, fundamentals and news. Try a starter or ask your own question.",
+  "tradingEmptyTitle": "Trading assistant",
+  "tradingEmptyBody": "Ask for trade ideas based on your risk profile. It proposes; nothing is placed until you approve.",
+  "agentPlaceholder": "Message your finance agent…",
+  "tradingPlaceholder": "Message your trading agent…",
+  "agentFootnote": "AI can be wrong. Not financial advice. Tap to read more.",
+  "tradingFootnote": "Proposals must be approved before execution.",
+  "agentStarterHealth": "Portfolio check-up",
+  "agentStarterHealthPrompt": "Give me a quick health check of my portfolio: overall P&L, today's move, and anything that needs attention.",
+  "agentStarterRisk": "Where's my risk?",
+  "agentStarterRiskPrompt": "Where is my portfolio most concentrated, and what risks does that create?",
+  "agentStarterLaggards": "My laggards",
+  "agentStarterLaggardsPrompt": "Which of my holdings are doing worst, and what's going on with them?",
+  "agentStarterExplain": "Explain a metric",
+  "agentStarterExplainPrompt": "Explain P/E, ROE and debt-to-equity in simple terms, using one of my holdings as an example.",
+  "tradingStarterSuggest": "Suggest trades",
+  "tradingStarterSuggestPrompt": "What trades would you recommend based on my risk profile and current holdings?",
+  "tradingStarterAnalyze": "Analyze RELIANCE",
+  "tradingStarterAnalyzePrompt": "Analyze RELIANCE-EQ technically and tell me if it's a good entry point.",
+  "tradingStarterPending": "Pending proposals",
+  "tradingStarterPendingPrompt": "Show my current pending proposals.",
+  "tradingStarterMargin": "Check margin",
+  "tradingStarterMarginPrompt": "What is my available margin and current exposure?",
+  "tradingLockedTitle": "The trading agent is part of Premium",
+  "tradingLockedBody": "It suggests trades from your risk profile, and nothing is placed until you approve. Premium is set up from the Trade tab.",
+  "tradingLockedAction": "Go to Trade",
+  "chatSend": "Send",
+  "chatYouSaid": "You said",
+  "chatAgentSaid": "The agent said",
+  "chatCopy": "Copy reply",
+  "chatCopied": "Copied",
+  "chatThinking": "Thinking…",
+  "chatWorkingFor": "Working on it… {seconds}s",
+  "@chatWorkingFor": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "chatWorkingLong": "Still working ({seconds}s). Replies that check live prices can take a minute or two.",
+  "@chatWorkingLong": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "chatNotSent": "Not sent.",
+  "chatSendAgain": "Send again",
+  "chatStillWorking": "The agent has this and hasn't answered yet.",
+  "chatCheckAgain": "Check again",
+  "chatLostConnection": "Connection lost before the answer. The agent may still have received this.",
+  "chatApprovalUnknown": "Connection lost before the answer. Check the Trade tab to see whether this went through before trying again.",
+  "chatNotSaved": "Conversations aren't saved on your plan. New chat starts afresh.",
+  "chatConversations": "Conversations",
+  "chatNew": "New chat",
+  "chatSavedIsPremium": "Saved conversations come with Premium. Your current chat continues until you start a new one.",
+  "chatNoThreads": "No saved conversations yet. Your first message starts one.",
+  "chatToday": "Today",
+  "chatYesterday": "Yesterday",
+  "chatThisWeek": "Previous 7 days",
+  "chatOlder": "Older",
+  "chatThreadMenu": "Conversation options",
+  "chatRename": "Rename",
+  "chatRenameTitle": "Rename conversation",
+  "chatRenameLabel": "Name",
+  "chatRenameFailed": "Couldn't rename: {message}",
+  "@chatRenameFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chatDelete": "Delete",
+  "chatDeleteTitle": "Delete this conversation?",
+  "chatDeleteBody": "\"{title}\" and its messages will be deleted everywhere you use Agentfolio. This can't be undone.",
+  "@chatDeleteBody": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "chatDeleteFailed": "Couldn't delete: {message}",
+  "@chatDeleteFailed": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "chatApproveTitle": "Place this order?",
+  "chatApproveBody": "Approving proposal {id} places a real order on your {broker} account straight away. Check the proposal's details first.",
+  "@chatApproveBody": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "chatYourBroker": "broker",
+  "chatApproveConfirm": "Approve and place order",
+  "approveTitle": "Place this order?",
+  "approveConfirm": "Confirm and place order",
+  "approveHold": "Hold to place order",
+  "approveNoLock": "This phone has no screen lock, so hold the button to confirm instead.",
+  "approveAuthReason": "Confirm it's you to place this order",
+  "approveAuthFailed": "Couldn't confirm it's you. Try again, or unlock your phone first.",
+  "approveNoDetails": "Only the proposal id is known here. Check its details in the Trade tab first.",
+  "approveWarning": "This places a real order on your {broker} account. It can't be undone from the app.",
+  "@approveWarning": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "orderBuy": "BUY",
+  "orderSell": "SELL",
+  "orderHeadline": "{quantity} × {symbol}",
+  "@orderHeadline": {
+    "placeholders": {
+      "quantity": {
+        "type": "int"
+      },
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "orderPrice": "Price",
+  "orderMarket": "Market price",
+  "orderTrigger": "Trigger",
+  "orderValue": "Order value",
+  "orderValueApprox": "Approx. value",
+  "orderProduct": "Product",
+  "orderType": "Order type",
+  "orderExchange": "Exchange",
+  "orderAccount": "Account",
+  "orderProposal": "Proposal",
+  "proposalsTitle": "Trade proposals",
+  "proposalsSubtitle": "From the trading agent. Nothing is placed until you approve.",
+  "proposalsPending": "{count} pending",
+  "@proposalsPending": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "proposalsNone": "No proposals right now. Ask the trading agent for ideas; any it suggests appear here for you to approve or reject.",
+  "proposalsChat": "Chat with the trading agent",
+  "proposalApprove": "Approve",
+  "proposalReject": "Reject",
+  "proposalRejected": "Proposal rejected",
+  "proposalIdCopied": "Proposal id copied",
+  "proposalOrderId": "Order ID {id}",
+  "@proposalOrderId": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "proposalExpiresIn": "Expires in {time}",
+  "@proposalExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "proposalExpiredNow": "This proposal has expired. Ask the agent for a fresh one.",
+  "statusPending": "Pending",
+  "statusApproved": "Approved",
+  "statusExecuted": "Placed",
+  "statusFailed": "Not placed",
+  "statusRejected": "Rejected",
+  "statusExpired": "Expired",
+  "statusUnknown": "Unknown",
+  "outcomePlaced": "Order placed",
+  "outcomePlacedBody": "Your broker accepted the order.",
+  "outcomeNotPlaced": "Order not placed",
+  "outcomeNotReceived": "The approval didn't reach the server",
+  "outcomeNotReceivedBody": "Nothing was placed. The proposal is still pending if you want to try again.",
+  "outcomeInProgress": "Sent to your broker",
+  "outcomeInProgressBody": "The result isn't back yet. Check Orders before doing anything else.",
+  "outcomeUnconfirmed": "We couldn't confirm what happened",
+  "outcomeUnconfirmedBody": "The connection dropped and the proposal is no longer on the server. Check Orders to see whether it was placed before trying again.",
+  "outcomeOpenOrders": "Open Orders",
+  "liveTitle": "Live price",
+  "liveNoHoldings": "No holdings yet. Type any NSE symbol above to watch it.",
+  "liveAnySymbol": "Any NSE symbol, e.g. RELIANCE",
+  "liveLoad": "Watch",
+  "liveUnavailableHint": "Price history isn't available for this symbol. Check the spelling, or try its NSE trading symbol.",
+  "liveLastClose": "Last close · live updates during market hours",
+  "liveTickAt": "Live · {when}",
+  "@liveTickAt": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "liveDelayed": "Delayed · last update {when}",
+  "@liveDelayed": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "liveLineLabel": "Live {price}",
+  "@liveLineLabel": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "liveChartLabel": "Daily candles for {symbol} over the last three months, with the live price",
+  "@liveChartLabel": {
+    "placeholders": {
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "liveOn": "Live",
+  "liveConnecting": "Connecting",
+  "liveReconnecting": "Reconnecting",
+  "livePaused": "Paused",
+  "liveUnavailable": "Unavailable",
+  "liveMarketClosed": "Market closed",
+  "profileTitle": "Risk profile",
+  "profileSubtitle": "Every proposal is checked against it before it reaches your broker",
+  "profileNone": "No risk profile yet. Set one up so the agent's proposals are checked against your limits.",
+  "profileSetUp": "Set up risk profile",
+  "profileEdit": "Edit",
+  "profileEditTitle": "Edit risk profile",
+  "profileIntro": "These limits shape what the trading agent suggests, and any order over them is blocked before it reaches your broker.",
+  "profileAboutYou": "About you",
+  "profileLimits": "Limits",
+  "profileAge": "Age",
+  "profileAgeProblem": "Between 18 and 120.",
+  "profileHorizon": "Horizon",
+  "profileHorizonYears": "Horizon (years)",
+  "profileHorizonProblem": "Between 1 and 50 years.",
+  "profileYears": "{count, plural, =1{1 year} other{{count} years}}",
+  "@profileYears": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "profileGoal": "Goal",
+  "profileTolerance": "Risk tolerance",
+  "profileTax": "Tax bracket",
+  "profileMaxOrder": "Max order",
+  "profileMaxOrderLabel": "Largest single order",
+  "profileMaxOrderHelp": "Any one order above this is blocked.",
+  "profileMaxOrderProblem": "At least ₹1,000.",
+  "profileMaxPosition": "Max position",
+  "profileMaxPositionLabel": "Max % in one stock",
+  "profilePercentProblem": "Between 1 and 100.",
+  "profileMaxTrades": "Max trades a day",
+  "profileTradesProblem": "Between 1 and 100.",
+  "profileProducts": "Products",
+  "profileProductsProblem": "Allow at least one.",
+  "profileSave": "Save risk profile",
+  "profileSaved": "Risk profile saved",
+  "profileDiscardTitle": "Discard your changes?",
+  "profileDiscardBody": "Your risk profile stays as it was.",
+  "profileDiscard": "Discard",
+  "goalWealth": "Wealth creation",
+  "goalIncome": "Income",
+  "goalPreservation": "Preservation",
+  "goalSpeculation": "Speculation",
+  "toleranceLow": "Low",
+  "toleranceMedium": "Medium",
+  "toleranceHigh": "High",
+  "productDelivery": "Delivery",
+  "productDeliveryHint": "Buy and hold shares",
+  "productIntraday": "Intraday",
+  "productIntradayHint": "Bought and sold the same day",
+  "briefTitle": "Daily brief",
+  "briefSubtitle": "An AI briefing on every holding, sent to {number}",
+  "@briefSubtitle": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "briefYourWhatsapp": "your WhatsApp",
+  "briefAutoSend": "Send every day",
+  "briefNotSet": "Not scheduled yet",
+  "briefNext": "Next: {when} IST",
+  "@briefNext": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "briefPaused": "Paused. Turn on to send daily again.",
+  "briefLast": "Last sent {when} IST",
+  "@briefLast": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "briefTimeIst": "Send time",
+  "briefPickTime": "Send time (India time)",
+  "briefSaved": "Saved. Next brief {when} IST",
+  "@briefSaved": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "briefPauseTitle": "Pause the daily brief?",
+  "briefPauseBody": "Automatic sends stop until you turn them on again. You can still send one now.",
+  "briefPause": "Pause",
+  "briefSendNow": "Send a brief now",
+  "briefSendNowTitle": "Send a brief now?",
+  "briefSendNowBody": "A briefing on your holdings goes to {number} in about 30 seconds.",
+  "@briefSendNowBody": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "briefStarted": "Briefing started. Check WhatsApp in about 30 seconds.",
+  "briefActivity": "Recent activity",
+  "briefRefresh": "Refresh",
+  "briefSent": "Sent",
+  "briefRunning": "Sending",
+  "briefFailed": "Failed",
+  "premiumTitle": "Premium trading agent",
+  "premiumSubtitle": "Turn it on with your WhatsApp number",
+  "premiumPerkIdeas": "Trade ideas from an AI agent that knows your holdings and your risk profile.",
+  "premiumPerkApprove": "Every order waits for you: approve with Face ID or your passcode, or reject.",
+  "premiumPerkLive": "Live prices, and a risk profile that blocks orders over your limits.",
+  "premiumPerkBrief": "A daily portfolio brief on WhatsApp.",
+  "premiumNumberHelp": "Briefs and alerts go here. Your broker login is reused from this session.",
+  "premiumNumberMissing": "Enter your WhatsApp number.",
+  "premiumActivate": "Activate Premium",
+  "tradeChatAgent": "Chat with the trading agent",
+  "tradeChatAgentHint": "Ask for ideas; proposals appear above",
+  "rebalancerTitle": "What-if rebalancer",
+  "rebalancerHint": "Simulate selling and reinvesting. Nothing is traded.",
+  "rebalancerIntro": "Drag a slider to sell part of a holding, then put the cash into another. A simulation only: nothing is sent to your broker.",
+  "rebalancerReset": "Reset",
+  "rebalancerEmpty": "No holdings to simulate yet",
+  "rebalancerFreed": "Cash freed",
+  "rebalancerLeft": "Left to deploy",
+  "rebalancerSold": "{percent}% sold",
+  "@rebalancerSold": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "rebalancerSoldSemantics": "{percent} percent of {symbol} sold",
+  "@rebalancerSoldSemantics": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      },
+      "symbol": {
+        "type": "String"
+      }
+    }
+  },
+  "rebalancerReinvest": "Reinvest in",
+  "rebalancerAmount": "Amount",
+  "rebalancerApply": "Apply",
+  "rebalancerPickStock": "Choose a stock to reinvest in.",
+  "rebalancerAmountPositive": "Enter an amount above zero.",
+  "rebalancerTooMuch": "That's more than the {amount} left to deploy.",
+  "@rebalancerTooMuch": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "rebalancerNote": "Whatever you don't reinvest stays as cash.",
+  "liveAfterHours": "Market closed · last traded price",
+  "lastLineLabel": "Last {price}",
+  "@lastLineLabel": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "accountPrivacy": "Privacy & security",
+  "accountLegal": "Legal",
+  "privacyHideBalancesHint": "Mask every amount, for using the app in public",
+  "privacyAnalytics": "Share usage analytics",
+  "privacyAnalyticsHint": "Screens and taps, to improve the app. Never amounts or messages. Crash reports are always sent.",
+  "lockSetting": "App lock",
+  "lockSettingHint": "Face ID, fingerprint or passcode to open Agentfolio",
+  "lockEnableReason": "Confirm to turn on the app lock",
+  "lockNeedsScreenLock": "Set a screen lock on this phone first, then turn on the app lock.",
+  "lockReason": "Unlock Agentfolio",
+  "lockTitle": "Agentfolio is locked",
+  "lockBody": "Unlock with Face ID, fingerprint or your passcode.",
+  "lockTryAgain": "Not unlocked. Try again.",
+  "lockUnlock": "Unlock",
+  "lockSignOut": "Log out instead",
+  "legalPrivacy": "Privacy policy",
+  "legalTerms": "Terms of use",
+  "legalRisk": "Risk disclosure",
+  "legalLicences": "Open-source licences",
+  "deleteTitle": "Delete account",
+  "deleteTileHint": "Permanently remove your Agentfolio account",
+  "deleteIntro": "This permanently deletes your Agentfolio account. It can't be undone; to use Agentfolio again you would set it up from the start.",
+  "deleteGoesTitle": "What is deleted",
+  "deleteGoesAccount": "Your Agentfolio account and app password",
+  "deleteGoesCredentials": "Your stored {broker} credentials",
+  "@deleteGoesCredentials": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteGoesChats": "Saved conversations with the AI agents",
+  "deleteGoesSettings": "Your risk profile, daily brief schedule and its history",
+  "deleteGoesDevice": "Everything this phone keeps for you: sign-in, AI key and drafts",
+  "deleteStaysTitle": "What stays",
+  "deleteStaysBroker": "Your {broker} account {client} and any orders already placed: deleting here never touches your broker",
+  "@deleteStaysBroker": {
+    "placeholders": {
+      "broker": {
+        "type": "String"
+      },
+      "client": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteStaysAudit": "Records of trade decisions, kept as an audit trail and no longer linked to you",
+  "deletePassword": "App password",
+  "deletePasswordMissing": "Enter your app password to confirm it's you.",
+  "deleteUnderstand": "I understand this can't be undone",
+  "deleteUnderstandMissing": "Tick this to continue.",
+  "deleteSubmit": "Delete my account",
+  "deleteFinalTitle": "Delete your account now?",
+  "deleteFinalBody": "Your account and everything listed is removed straight away.",
+  "deleteFinalConfirm": "Delete permanently",
+  "deleteThrottled": "Too many attempts. Wait a few minutes before trying again.",
+  "deletedTitle": "Your account has been deleted",
+  "deletedBody": "Everything this phone kept for you was removed too. Thank you for trying Agentfolio."
+}

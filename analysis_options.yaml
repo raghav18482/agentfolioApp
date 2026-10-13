@@ -1,0 +1,27 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+formatter:
+  page_width: 100
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/core/l10n/gen/**"
+    - "lib/firebase_options.dart"
+    - build/**
+    - android/**
+    - ios/**
+  errors:
+    # Generated files and json_serializable annotations trip this one.
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    # Doc comments are written where they explain *why*, not on every member.
+    public_member_api_docs: false
+    # The formatter wraps at 100 (see `formatter` above).
+    lines_longer_than_80_chars: false
+    # Dart 3.13's `const new(...)` constructor syntax. Held back until freezed
+    # and json_serializable emit it, so the codebase keeps one constructor style.
+    unnecessary_type_name_in_constructor: false
