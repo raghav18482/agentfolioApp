@@ -93,12 +93,12 @@ class _TradeScreenState extends State<TradeScreen> {
         children: const [
           PremiumCard(),
           SizedBox(height: AppSpace.lg),
-          _Tools(premium: false),
+          _Tools(),
         ],
       );
     } else {
       const left = [ProposalsCard(), LiveWatchCard()];
-      const right = [RiskProfileCard(), BriefingCard(), _Tools(premium: true)];
+      const right = [RiskProfileCard(), BriefingCard(), _Tools()];
       body = RefreshIndicator(
         onRefresh: context.read<TradeViewModel>().refresh,
         child: wide
@@ -162,9 +162,7 @@ class _Column extends StatelessWidget {
 }
 
 class _Tools extends StatelessWidget {
-  const _Tools({required this.premium});
-
-  final bool premium;
+  const _Tools();
 
   @override
   Widget build(BuildContext context) {
@@ -173,15 +171,6 @@ class _Tools extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: AppSpace.sm),
       child: Column(
         children: [
-          if (premium)
-            AppTile(
-              trackId: 'trade_chat_agent',
-              icon: Icons.forum_outlined,
-              iconColor: AppColors.brandSoft,
-              title: l10n.tradeChatAgent,
-              subtitle: l10n.tradeChatAgentHint,
-              onTap: () => context.go(Routes.agentWith(trading: true)),
-            ),
           AppTile(
             trackId: 'trade_rebalancer',
             icon: Icons.tune_rounded,

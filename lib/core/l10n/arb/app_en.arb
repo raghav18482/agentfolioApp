@@ -1148,8 +1148,7 @@
       }
     }
   },
-  "proposalsNone": "No proposals right now. Ask the trading agent for ideas; any it suggests appear here for you to approve or reject.",
-  "proposalsChat": "Chat with the trading agent",
+  "proposalsNone": "No proposals right now. Any the trading agent suggests appear here for you to approve or reject.",
   "proposalApprove": "Approve",
   "proposalReject": "Reject",
   "proposalRejected": "Proposal rejected",
@@ -1351,8 +1350,6 @@
   "premiumNumberHelp": "Briefs and alerts go here. Your broker login is reused from this session.",
   "premiumNumberMissing": "Enter your WhatsApp number.",
   "premiumActivate": "Activate Premium",
-  "tradeChatAgent": "Chat with the trading agent",
-  "tradeChatAgentHint": "Ask for ideas; proposals appear above",
   "rebalancerTitle": "What-if rebalancer",
   "rebalancerHint": "Simulate selling and reinvesting. Nothing is traded.",
   "rebalancerIntro": "Drag a slider to sell part of a holding, then put the cash into another. A simulation only: nothing is sent to your broker.",

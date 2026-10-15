@@ -1784,10 +1784,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get proposalsNone =>
-      'No proposals right now. Ask the trading agent for ideas; any it suggests appear here for you to approve or reject.';
-
-  @override
-  String get proposalsChat => 'Chat with the trading agent';
+      'No proposals right now. Any the trading agent suggests appear here for you to approve or reject.';
 
   @override
   String get proposalApprove => 'Approve';
@@ -2181,12 +2178,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get premiumActivate => 'Activate Premium';
-
-  @override
-  String get tradeChatAgent => 'Chat with the trading agent';
-
-  @override
-  String get tradeChatAgentHint => 'Ask for ideas; proposals appear above';
 
   @override
   String get rebalancerTitle => 'What-if rebalancer';

@@ -66,22 +66,9 @@ class _NoProposals extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context);
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        Text(
-          l10n.proposalsNone,
-          style: context.text.bodyMedium?.copyWith(color: AppColors.textSecondary, height: 1.45),
-        ),
-        const SizedBox(height: AppSpace.md),
-        AppButton(
-          trackId: 'proposals_chat',
-          label: l10n.proposalsChat,
-          icon: Icons.forum_outlined,
-          variant: AppButtonVariant.secondary,
-          onPressed: () => context.go(Routes.agentWith(trading: true)),
-        ),
-      ],
+    return Text(
+      l10n.proposalsNone,
+      style: context.text.bodyMedium?.copyWith(color: AppColors.textSecondary, height: 1.45),
     );
   }
 }

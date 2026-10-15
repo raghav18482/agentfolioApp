@@ -3185,14 +3185,8 @@ abstract class AppLocalizations {
   /// No description provided for @proposalsNone.
   ///
   /// In en, this message translates to:
-  /// **'No proposals right now. Ask the trading agent for ideas; any it suggests appear here for you to approve or reject.'**
+  /// **'No proposals right now. Any the trading agent suggests appear here for you to approve or reject.'**
   String get proposalsNone;
-
-  /// No description provided for @proposalsChat.
-  ///
-  /// In en, this message translates to:
-  /// **'Chat with the trading agent'**
-  String get proposalsChat;
 
   /// No description provided for @proposalApprove.
   ///
@@ -3895,18 +3889,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Activate Premium'**
   String get premiumActivate;
-
-  /// No description provided for @tradeChatAgent.
-  ///
-  /// In en, this message translates to:
-  /// **'Chat with the trading agent'**
-  String get tradeChatAgent;
-
-  /// No description provided for @tradeChatAgentHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Ask for ideas; proposals appear above'**
-  String get tradeChatAgentHint;
 
   /// No description provided for @rebalancerTitle.
   ///
